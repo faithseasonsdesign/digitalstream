@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+/*navigation coding start*/
+a{
+    color:black;
+    font-weight: 500;
+    font-size:12px;
+}
+.logo-img{
+    height:25px !important;
+}
+.nav-content{
+    height:80px;
+}
+/*navigation coding ended*/
+
+/*hero section coding start*/
+.hero-section{
+    background:url("../images/5.jpg");
+    background-size: 100%;
+    background-position-x:16vw;
+    background-position-y:-25vw;
+    height:60vh;
+}
+.hero-section-mask{
+    height:60vh;
+    background-image: linear-gradient(to left, #0043c633 , #0049d5c2 , #004ee5 , #0b4ccbd1);
+}
+.mini-title{
+    font-size:22pt;
+}
+.title{
+    font-size: 38pt;
+    margin-top:0pt;
+}
+.description{
+    font-size:11pt;
+}
+.start-btn{
+    background-color:#FF0099;
+    font-weight:bold;
+    font-size:10pt;
+}
+/*hero section coding ended*/
+
+
+/*about section coding start*/
+.about-title{
+    font-size:20pt;
+    font-weight:bolder;
+}
+/*about section coding eneded*/
+
+/*services coding start*/
+.services-wrapper{
+    background-image: linear-gradient(to right, #0043c633 , #00aad5c2 , #cccccc , #0a5dffd1);
+}
+.services-btn{
+    color:black !important;
+    font-weight:bold;
+    border:solid 2px #0049D5;
+}
+/*services coding ended*/
+
+/*team coding start*/
+.team-wrapper{
+    background-image: linear-gradient(to left, #0043c633 , #00aad5c2 , #3800e5 , #0a5dffd1);
+}
+/*team coding ended*/
+
+@media screen and (max-width:767px){
+    .nav-list-items{
+        position: absolute;
+        top:80px;
+        background-color: #0046CF;
+        height:50vh;
+        row-gap:20px;
+        display:none !important;
+    }
+    a{
+        color:white;
+    }
+
+    .hero-section{
+        background:url("../images/5.jpg");
+        background-size: 100% 1;
+        background-repeat:no-repeat;
+        background-position-x:1.3vh;
+        background-position-y:-22vh;
+        height:58vh;
+    }
+    .hero-section-mask{
+        height:58vh;
+        background-image: linear-gradient(to left, #0043c633 , #0049d5c2 , #004ee5 , #0b4ccbd1);
+    }
+    .mini-title{
+        font-size:12pt;
+    }
+    .title{
+        font-size:20pt;
+    }
+    .description{
+        font-size:10pt;
+    }
+
+    /*about coding start*/
+    .about-service{
+        font-size:11pt;
+    }
+    .about-title{
+        font-size:18pt;
+    }
+    /*about coding ended*/
+}
+
+@media screen and (max-width:250px){
+    .logo-img{
+        height:16px !important;
+    }
+}
+
+
+
