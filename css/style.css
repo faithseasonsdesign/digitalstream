@@ -116,6 +116,15 @@ a{
         font-size:18pt;
     }
     /*about coding ended*/
+
+    /*contact coding start*/
+    .contact-wrapper{
+        text-align:center;
+    }
+    .socials{
+        justify-content:center;
+    }
+        /*contact coding ended*/
 }
 
 @media screen and (max-width:250px){
